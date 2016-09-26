@@ -1,0 +1,56 @@
+.videos-container {
+  margin-top: 20px;
+  padding-left: 38px;
+  .video-container {
+
+
+    margin-right: 31px;
+    margin-bottom: 25px;
+  display: inline-block;
+
+  .video {
+    border: 3px solid #656464;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    width: 265px;
+    height: 156px;
+
+    img {
+      border: 5px solid #000000;
+      position: absolute;
+    }
+
+    img.video-mask {
+
+      border: 0;
+
+  }
+
+  }
+
+  p {
+
+    margin-top: 10px;
+    color: #9A9A9A;
+
+    a {
+
+      color: #fff;
+      font-size: 17px;
+
+      &:hover {
+        text-decoration: none;
+        color: #CE541F;
+      }
+    }
+
+    span {
+      color: #CE541F;
+    }
+
+  }
+
+  }
+
+}
