@@ -1,4 +1,3 @@
-<h1>GraphReact</h1>
 <h3>Тестовое задание для позиции Frontend developer/Javascript developer</h3>
 
 <h3>Стек: redux, react, webpack, nodejs, git</h3>
