@@ -1,4 +1,5 @@
 import * as types from './actionTypes';
+import fetch from 'isomorphic-fetch';
 
 export function loadItemsSuccess(items) {
   return { type: types.LOAD_ITEMS_SUCCESS, items};

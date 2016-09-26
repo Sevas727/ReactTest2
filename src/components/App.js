@@ -21,6 +21,8 @@ class App extends React.Component {
   }
 }
 
+App.need = [() => { return itemsActions.loadItems(); }];
+
 App.propTypes = {
   children: PropTypes.object.isRequired,
   actions: PropTypes.object.isRequired
